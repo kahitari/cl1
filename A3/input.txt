@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+main()
+{
+int a,b,c=10;
+float d;
+d=c+b;
+printf("%f",d);
+e=c-b;
+/*a=;
+}

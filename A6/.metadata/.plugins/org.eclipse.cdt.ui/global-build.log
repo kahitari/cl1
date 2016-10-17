@@ -1,0 +1,27 @@
+18:43:54 **** Build of configuration Default for project a6 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+18:49:09 **** Incremental Build of configuration Default for project Try ****
+make 
+make: *** No targets specified and no makefile found.  Stop.
+18:49:09 **** Build of configuration Default for project a6 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+18:49:55 **** Incremental Build of configuration Default for project Try ****
+make 
+make: *** No targets specified and no makefile found.  Stop.
+18:49:55 **** Incremental Build of configuration Default for project a6 ****
+make 
+make: *** No targets specified and no makefile found.  Stop.
+18:49:57 **** Incremental Build of configuration Default for project Try ****
+make 
+make: *** No targets specified and no makefile found.  Stop.
+18:49:57 **** Incremental Build of configuration Default for project a6 ****
+make 
+make: *** No targets specified and no makefile found.  Stop.
+18:49:57 **** Incremental Build of configuration Default for project Try ****
+make 
+make: *** No targets specified and no makefile found.  Stop.
+18:49:57 **** Incremental Build of configuration Default for project a6 ****
+make 
+make: *** No targets specified and no makefile found.  Stop.

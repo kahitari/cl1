@@ -1,0 +1,57 @@
+/*
+ * try.cpp
+ *
+ *  Created on: 16-Oct-2016
+ *      Author: flash
+ */
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include <string>
+#include <math.h>
+
+using namespace std;
+
+class file_row
+{
+	vector <string> data;
+public:
+	string operator[](int index)
+		{
+			return data[index];
+		}
+	int size()
+	{
+		return data.size();
+	}
+
+	void 	readNextRow(istream& str)
+	{
+		string line;
+		getline(str,line);
+		stringstream linestream(line);
+		string cell;
+		data.clear();
+		while(getline(linstream,cell,','))
+		{
+			data.push_back(cell);
+		}
+
+	}
+};
+
+istream& operator >>(istream& str,file_row row)
+{
+	row.readNextRow(str);
+}
+
+int main()
+{
+
+	ifstream infile("/home/flash/Documents/be/CL1/CL1_he bagha/A6/try.csv")
+	return 0;
+}
+
+
+

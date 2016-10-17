@@ -1,0 +1,36 @@
+/*
+ * try.cpp
+ *
+ *  Created on: 16-Oct-2016
+ *      Author: flash
+ */
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include <string>
+#include <math.h>
+
+using namespace std;
+
+class file_row
+{
+	vector <string> data;
+public:
+	string operator[](int index))
+		{
+			return data[index];
+		}
+	int size()
+	{
+		return data.size();
+	}
+};
+
+int main()
+{
+	return 0;
+}
+
+
+
